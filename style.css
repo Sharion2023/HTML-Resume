@@ -1,4 +1,21 @@
+body {
+  background-color: rgb(190, 176, 158);
+}
+
+section {
+  width: 70%;
+  margin: 20px auto;
+}
+
 h1,
 h2 {
   text-align: center;
+}
+
+hr {
+  border: none; /* Remove default border */
+  height: 2px; /* Set height */
+  background-color: #714646; /* Set background color */
+  width: 70%; /* Set width */
+  margin: 20px auto; /* Center the hr and add vertical margin */
 }
