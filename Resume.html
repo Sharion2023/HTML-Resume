@@ -19,8 +19,8 @@
         SampleResume@Sample.com<br />
         555-555-5555
       </h2>
-      <hr />
     </section>
+    <hr />
     <main>
       <section>
         <h2>Professional Summary</h2>
@@ -33,8 +33,8 @@
           passion for improving user experience through accessible,
           high-performance web solutions.
         </p>
-        <hr />
       </section>
+      <hr />
       <section>
         <h2>Professional Experience</h2>
         <p>
@@ -53,8 +53,8 @@
           processes — experience that now informs collaborative development
           practices.
         </p>
-        <hr />
       </section>
+      <hr />
       <section>
         <h2>Education</h2>
         <p>
@@ -65,17 +65,41 @@
           Applied Science, Respiratory Therapy Graduated 2015
         </p>
       </section>
+      <hr />
       <section>
         <h2>Technical Skills</h2>
-        <p>
-          Languages: JavaScript, HTML5, CSS3, Java <br />
-          SQL Frameworks & Libraries: React, Node.js, Express.js, Spring Boot<br />
-          Databases: MySQL, MongoDB<br />
-          Tools & Platforms: Git/GitHub, VS Code, Postman, Visual Studio,
-          Figma<br />
-          Other: REST APIs, Responsive Design, Agile/Scrum, Unit Testing
-        </p>
+        <ul>
+          <li>Languages: JavaScript, HTML5, CSS3, Java</li>
+          <li>
+            SQL Frameworks & Libraries: React, Node.js, Express.js, Spring Boot
+          </li>
+          <li>Databases: MySQL, MongoDB</li>
+          <li>
+            Tools & Platforms: Git/GitHub, VS Code, Postman, Visual Studio,
+            Figma
+          </li>
+          <li>
+            Other: REST APIs, Responsive Design, Agile/Scrum, Unit Testing
+          </li>
+        </ul>
       </section>
+      <hr />
     </main>
+
+    <footer>
+      <p>Created By: Sharion Cranston</p>
+      <div><span id="current date"></span></div>
+    </footer>
+
+    <script>
+      //Grab current date
+      var date = new Date();
+
+      //Get date element
+      var dateElement = document.getElementById("current date");
+
+      //Insert date into date element
+      dateElement.innerHTML = date;
+    </script>
   </body>
 </html>
