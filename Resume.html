@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="style.css" />
     <title>Resume</title>
     <nav class="navbar">
-      <a href="/Career.html">Career page</a>
-      <a href="/Cover.html">Cover letter</a>
+      <a href="/Career-goals.html">Career page</a>
+      <a href="/Cover-letter.html">Cover letter</a>
     </nav>
   </head>
   <body>
@@ -55,16 +55,37 @@
         </p>
       </section>
       <hr />
-      <section>
-        <h2>Education</h2>
-        <p>
-          <strong>LaunchCode LC101 Program</strong> — Full-Stack Web Development
-          Completed 2024
-          <br />
-          <strong>St. Louis College of Health Careers</strong> — Associate of
-          Applied Science, Respiratory Therapy Graduated 2015
-        </p>
-      </section>
+
+      <h2>Education</h2>
+      <table>
+        <caption>
+          Educational Information
+        </caption>
+        <tr>
+          <th>School</th>
+          <th>Program</th>
+          <th>Degree/Certificate</th>
+          <th>Completion Date</th>
+        </tr>
+        <tr>
+          <td>Western Governors University</td>
+          <td>Computer Science</td>
+          <td>Bachelor's of Computer Science</td>
+          <td>Expected Dec 2026</td>
+        </tr>
+        <tr>
+          <td>LaunchCode LC101 Program</td>
+          <td>Full-Stack Web Development</td>
+          <td>Certificate</td>
+          <td>Completed 2024</td>
+        </tr>
+        <tr>
+          <td>St. Louis College of Health Careers</td>
+          <td>Respiratory Care</td>
+          <td>Associate of Applied Science</td>
+          <td>Completed 2015</td>
+        </tr>
+      </table>
       <hr />
       <section>
         <h2>Technical Skills</h2>
@@ -88,7 +109,9 @@
 
     <footer>
       <p>Created By: Sharion Cranston</p>
-      <div><span id="current date"></span></div>
+      <div>
+        <p>The current date is: <span id="current date"></span></p>
+      </div>
     </footer>
 
     <script>
@@ -100,6 +123,9 @@
 
       //Insert date into date element
       dateElement.innerHTML = date;
+      console.log(
+        "Hello from the dev side AKA the dark side of my resume project!"
+      );
     </script>
   </body>
 </html>
