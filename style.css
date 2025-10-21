@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: rgb(190, 176, 158);
+  background-color: rgb(152, 137, 116);
 }
 
 section {
@@ -21,9 +21,23 @@ section {
   margin: 20px auto;
 }
 
+article {
+  width: 70%;
+  margin: 20px auto;
+}
+
 h1,
 h2 {
   text-align: center;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 1.5;
+}
+
+ul {
+  line-height: 1.5;
 }
 
 hr {
@@ -42,4 +56,9 @@ td {
   margin-right: auto;
   width: 75%;
   text-align: center;
+}
+
+footer {
+  width: 70%;
+  margin: 20px auto;
 }
