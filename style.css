@@ -16,7 +16,9 @@ body {
   background-color: rgb(152, 137, 116);
 }
 
-section {
+section,
+form,
+.contact {
   width: 70%;
   margin: 20px auto;
 }
@@ -63,4 +65,32 @@ td {
 footer {
   width: 70%;
   margin: 20px auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 40%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.audio {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  min-height: 50vh; /* Example: center in the viewport */
+}
+
+.tenor-gif-embed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: auto;
 }
