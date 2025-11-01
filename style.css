@@ -16,9 +16,7 @@ body {
   background-color: rgb(152, 137, 116);
 }
 
-section,
-form,
-.contact {
+section {
   width: 70%;
   margin: 20px auto;
 }
@@ -71,7 +69,7 @@ input[type="text"],
 input[type="email"],
 select,
 textarea {
-  width: 40%; /* Full width */
+  width: 60%; /* Full width */
   padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
@@ -87,10 +85,26 @@ textarea {
   min-height: 50vh; /* Example: center in the viewport */
 }
 
-.tenor-gif-embed {
+.dev-image {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50vh;
   margin: auto;
+}
+
+.container {
+  display: flex; /* Enables flexbox layout */
+  justify-content: center;
+  align-items: flex-start; /* Aligns items to the start of the cross-axis (top) */
+  gap: 20px; /* Adds space between the flex items */
+}
+
+form {
+  width: 100vh;
+  padding: 10px;
+}
+
+.tenor-gif-embed {
+  padding: 10px;
 }
