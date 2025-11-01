@@ -72,11 +72,21 @@ Give back to the community, whether through teaching, mentoring other career cha
         <source src="let's-get-to-it-captain-michael-burnham.ogg" type="video/ogg">
       Your browser does not support the video tag.
         </video>
+        <p>Source for MP4: Tenor.com</p>
     </div> 
+<div class="audio">
+      <audio controls>
+        <source src="Thank you.wav">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    
+  </div>
+    
 
     
-    <div>
-      <p class="contact">Contact me:</p>
+
+    <p class="contact">Contact me:</p>
     <form action="https://wp.zybooks.com/form-viewer.php">
       <label for="firstName">First Name: </label>
       <input type="text" id="firstName" name="firstName" /><br>
@@ -85,17 +95,29 @@ Give back to the community, whether through teaching, mentoring other career cha
       <label for="companyName">Company Name: </label>
       <input type="text" id="companyName" name="companyName" /><br>
       <label for="email" >Email address:</label>
-      <input type="email" id="email" name="email">
+      <input type="email" id="email" name="email"><br>
+      
+      
+      <label for="contactMethod">Select: </label>
+      <select name="contactMethod" id="contactMethod">
+        <option value="phone">Phone</option>
+         <option value="email">Email</option>      
+          <option value="text">Text</option>  
+          </select>  
+          <p>Best time to contact: 
+        
+        <input type="radio" id="am" name="contactTime" value="AM"/>
+      <label for="am">A.M.</label>
+      
+       <input type="radio" id="pm" name="contactTime" value="PM"/>
+      <label for="pm">P.M.</label>
+      <input type="radio" id="any" name="contactTime" value="Anytime"/>
+      <label for="any">Anytime</label>
+      </p>
+      
+      <br>
+    <button type="submit">Submit</button>
     </form>
-    </div>
-    </div>
-
-    <div class="audio">
-      <audio controls>
-        <source src="Thank you.wav">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
 
 
 
