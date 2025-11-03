@@ -1,8 +1,10 @@
+/*class selector*/
 .navbar {
   overflow: hidden;
   background-color: #333;
 }
 
+/*descendent selector*/
 .navbar a {
   float: left;
   color: #f2f2f2;
@@ -12,11 +14,13 @@
   font-size: 17px;
 }
 
+/*element selector*/
 body {
   background-color: rgb(152, 137, 116);
 }
 
-section {
+/*universal selector*/
+section * {
   width: 70%;
   margin: 20px auto;
 }
@@ -27,7 +31,8 @@ article {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
 }
 
@@ -58,6 +63,10 @@ td {
   width: 70%;
   text-align: center;
   white-space: nowrap;
+}
+
+span {
+  color: aquamarine;
 }
 
 footer {
@@ -105,15 +114,25 @@ textarea {
 form {
   width: 50%;
   margin: 20px auto;
-  /* text-align: center;
-  width: 100vh;
-  padding: 10px; */
 }
 
 button {
-  border-radius: 75px;
-  background-color: rgb(78, 78, 169);
+  border-radius: 10px;
+  background-color: antiquewhite;
   padding: 20px;
+}
+
+.dim-opacity {
+  /* Default state: fully opaque */
+  opacity: 1;
+  /* Smooth transition effect over 0.3 seconds */
+  transition: opacity 0.3s ease;
+}
+
+/*pseudo-class selector*/
+.dim-opacity:hover {
+  /* Hover state: dim the button (e.g., 50% transparency) */
+  opacity: 0.5;
 }
 
 .contact {
@@ -121,6 +140,7 @@ button {
   margin: 20px auto;
 }
 
-.tenor-gif-embed {
-  padding: 10px;
+/*id selector*/
+#tenor-gif-embed {
+  padding: 50px;
 }
